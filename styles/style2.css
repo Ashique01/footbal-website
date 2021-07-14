@@ -46,8 +46,8 @@ body{
 
 .heading-properties img:hover
 {
-    animation: shake 0.5s;
-    animation-iteration-count: infinite;
+    transform:skewY(20deg);
+    transition: transform  1s ease-out infinite;
 }
 .button{
     text-decoration: none;
@@ -243,3 +243,5 @@ footer
 
 
 /* It was the best and hardest part but i have learnt a lot of things from this errors */
+/* Coding is love */
+/* hello World */
