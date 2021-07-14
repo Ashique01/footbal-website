@@ -43,6 +43,12 @@ body{
 
 
 }
+
+.heading-properties img:hover
+{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
 .button{
     text-decoration: none;
     color: oldlace;
@@ -182,6 +188,7 @@ footer
     margin-bottom: 40px;
     text-align: center;
     margin-left: 20px;
+}
 
 @media only screen and(max-width:688px) {
 
@@ -232,3 +239,7 @@ footer
     }
 
 }
+
+
+
+/* It was the best and hardest part but i have learnt a lot of things from this errors */
