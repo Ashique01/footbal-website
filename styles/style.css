@@ -164,7 +164,8 @@ body{
 
     width: 400px;
     height: 100px;
-    margin: right 22px ;
+    margin-left:25px ;
+    margin-right: 25px;
 }
 .links>a>img{
     width: 37px;
@@ -184,32 +185,182 @@ footer
 
 /* media-quaries */
 
-@media only screen and(max-width:992px) {
+@media only screen and(max-width:688px) {
 
     .heading-container{
+        background-color: navy;
+        position:relative;
         width: 100%;
+        height: 700px;
+        margin:-8px;
+        padding-right: 19.5px; 
+        
+    }
+    
+    .heading
+    {
+        display: flex;
     }
     .heading-properties h1
     {
-        margin-left: 0;
+        font-size: 40px;
+        font-weight: bold;
+        margin-left: 5px;
+        margin-top: 207px;
+        margin-bottom: 27px;
         margin-right: 0;
-        font-size:40px;
-
-
+    }
+    
+    .heading-properties img
+    {
+        width: 160px;
+        height: 400px;
+        padding-left: 0;
+        margin-top: 170px;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 0;
+    
+    
     }
     .button{
-        margin-left:0;
+        text-decoration: none;
+        color: oldlace;
+        background-color: #E02C6D;
+        font-size: 15px;
+        padding: 15px 50px;
+        margin-left: 5px;
+        margin-bottom: 169px;
+        margin-top: 27px ;
     }
-    .heading-properties img{
+    .login-button{
+        float: right;
+        text-decoration: none;
+        color: oldlace;
+        background-color: #E02C6D;
+        font-size: 10px;
+        padding: 10px 15px;
+        margin-top: 20px;
+        margin-right: 20px;
+    
+    }
+    /* players-images and styles */
+    .players-album
+    {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 40px;
+        margin-left: 0;
+        margin-right: 200px;
+    }
+    .players-frame
+    {
+        width: 280px;
+        height: 480px;
+        background: #FFFFFF;
+        margin-right: 30px;
+        margin-top: 40px;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+
+    }
+    .player-photo img
+    {
+        width: 250px;
+        height: 170px;
+        margin-top:15px ;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .about h2{
+        color:#18191F;
+        font-size: 28px;
+        font-weight: bold;
+        padding-left: 15px;
+
+
+    }
+    .about p{
+        color:#6C6C6C;
+        font-size: 13px;
+        text-align:left;
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+        .live-container
+    {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    .watch-live h2{
+        font-size: 30px;
+        font-weight: bold;
+        color: #0A0826;
+        margin-left: 0;
+        margin-top: 200px;
+
+    }
+    .watch-live p{
+        font-size: 10px;
+        color: #6C6C6C;
+        margin-left: 0;
+        margin-bottom: 15px;
+        display: block;
+        text-align: left;
+    }
+    .helight-picture img{
+        width: 200px;
+        height: 300px;
+        margin-top: 3500px;
+        margin-left: 4px;
+        margin-right: 100px;
+        filter: drop-shadow(5px 5px 5px #222);
+    }
+    #watch-live-button{
+        margin-left: 0;
+    
+
+    }
+
+    /* Logos,copyright,links sections */
+    .items-container
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         
-    width: 162px;
-    height: 350px;
-    padding-left: 0;
-    margin-top: 180px;
-    margin-right: 0;
-    margin-left: 0px;
-    margin-bottom: 0px;
+        
     }
+    .items
+    {
+        width: 300px;
+        margin-top: 130px;
+        
+
+    }
+    .logo img{
+
+        width: 400px;
+        height: 100px;
+        margin: 22px ;
+    }
+    .links>a>img{
+        width: 37px;
+        height: 37px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    footer
+    {
+        font-size: 15px;
+        font-weight: 400;
+        color: #000000;
+        margin-left:10px ;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
 
     
 }
