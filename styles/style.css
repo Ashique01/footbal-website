@@ -5,10 +5,6 @@ body{
     color: #FFFFFF;
 
 }
-main{
-    display: flex;
-    flex-direction: row;
-}
 
 /* Heading-style */
 .heading-container{
@@ -136,4 +132,40 @@ main{
     margin-left: 210px;
    
 
+}
+
+/* Logos,copyright,links sections */
+.items-container
+{
+    display: flex;
+    justify-content: center;
+    
+}
+.items
+{
+    width: 300px;
+    margin-top: 130px;
+    
+
+}
+.logo img{
+
+    width: 400px;
+    height: 100px;
+    margin: right 22px ;
+}
+.links>a>img{
+    width: 37px;
+    height: 37px;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+footer
+{
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
 }
