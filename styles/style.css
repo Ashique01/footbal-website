@@ -181,3 +181,35 @@ footer
     margin-bottom: 40px;
     text-align: center;
 }
+
+/* media-quaries */
+
+@media only screen and(max-width:992px) {
+
+    .heading-container{
+        width: 100%;
+    }
+    .heading-properties h1
+    {
+        margin-left: 0;
+        margin-right: 0;
+        font-size:40px;
+
+
+    }
+    .button{
+        margin-left:0;
+    }
+    .heading-properties img{
+        
+    width: 162px;
+    height: 350px;
+    padding-left: 0;
+    margin-top: 180px;
+    margin-right: 0;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    }
+
+    
+}
