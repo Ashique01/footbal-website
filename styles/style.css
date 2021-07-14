@@ -11,11 +11,12 @@ body{
     background-color: navy;
     position:relative;
     width: 1500px;
-    height: 670px;
+    height: 700px;
     margin:-8px;
     padding-right: 19.5px; 
     
 }
+
 .heading
 {
     display: flex;
@@ -51,6 +52,17 @@ body{
     margin-left: 156px;
     margin-bottom: 169px;
     margin-top: 27px ;
+}
+.login-button{
+    float: right;
+    text-decoration: none;
+    color: oldlace;
+    background-color: #E02C6D;
+    font-size: 10px;
+    padding: 10px 15px;
+    margin-top: 20px;
+    margin-right: 20px;
+
 }
 
 /* players-images and styles */
